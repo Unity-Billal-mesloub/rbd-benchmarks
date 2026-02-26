@@ -89,7 +89,7 @@ cd ..
 
 This step is optional, and only required for the CPU instruction mix results.
 
-To install the [likwid](https://github.com/RRZE-HPC/likwid) hardware performance counter tools, run
+To install the [likwid](https://github.com/Unity-Billal-mesloub/likwid) hardware performance counter tools, run
 
 ```bash
 cd likwid
@@ -98,7 +98,7 @@ sudo make install
 cd ..
 ```
 
-Note that likwid will be installed locally, but `sudo` is required to `chown` the locally installed files to `root`, since these files [need access to model-specific register device files](https://github.com/RRZE-HPC/likwid/wiki/Build#setting-up-access-for-hardware-performance-monitoring).
+Note that likwid will be installed locally, but `sudo` is required to `chown` the locally installed files to `root`, since these files [need access to model-specific register device files](https://github.com/Unity-Billal-mesloub/likwid/wiki/Build#setting-up-access-for-hardware-performance-monitoring).
 
 Hardware performance counters differ per CPU architecture. Currently, only the Kaby Lake CPU architecture has been tested. Running the likwid experiments on other CPU architectures is likely to result in a program crash.
 
